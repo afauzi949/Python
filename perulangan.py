@@ -11,14 +11,14 @@ print("\nDengan string")
 for i in "Bima":
     print(f"Perintah ini mencetak karakter {i}.")
 
-# kondisi di awal
+# eksekusi kondisi di awal 
 iterasi = 0
 
 while iterasi < 4:
     print(f"Perintah cetak angka {iterasi}")
     iterasi+= 1
 
-# kondisi di akhir
+# eksekusi kondisi di akhir 
 iterateNumber = 0
 iterateValue = True
 while iterateValue:
