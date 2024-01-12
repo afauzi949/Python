@@ -93,7 +93,7 @@ def eatSomething(food: str):     # tidak perlu anotasi pada prosedur
  
 eatSomething("Mi Ayam")
  
-# Quiz
+# Quiz 1
 print("\nQuiz\n")
 
 
