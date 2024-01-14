@@ -10,14 +10,17 @@ def header()->str:
     print(f"{40*'=':^40}")
 
 def inputan()->float:
+    '''fungsi input'''
     panjang:float = float(input("\nMasukkan Panjang : "))
     lebar:float = float(input("Masukkan Lebar   : "))
     return panjang,lebar
 
 def luas(panjang:float,lebar:float):
+    '''fungsi luas'''
     return panjang*lebar
 
 def keliling(panjang,lebar):
+    '''fungsi keliling'''
     return 2*(panjang+lebar)
 
 while True:
@@ -30,5 +33,4 @@ while True:
     print(f"Keliling Persegi panjang = {KELILING}")
     isContinue:str = input("\nApakah mau lanjut program(y/n) : ")
     if isContinue != "y":   
-        print("\nTerima Kasih Telah Menggunakan Program\n")
         break
