@@ -1,10 +1,8 @@
 ''' Latihan Fungsi '''
 
-import os
+import os #impor modul OS
 
 ''' Biar lebih efisien menggunakan definisi fungsi '''
-
-
 
 def header()->str:
     print(f"{'Selamat datang di Program':^40}")
